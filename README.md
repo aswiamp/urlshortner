@@ -25,7 +25,8 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
+this is a nestjs backend for shortendurl . only accesible for the authenticated user about the urlshortend.
+reference:github,google,chatgpt for getting the concept about shortend url
 ## Installation
 
 ```bash
