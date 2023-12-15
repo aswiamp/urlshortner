@@ -15,8 +15,8 @@ import { UrlModule } from './url/url.module';
       inject: [ConfigService],
       useFactory: async (config: ConfigService) => ({
         uri: config.get<string>('MONGODB_URI'),
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
+        //  useNewUrlParser: true,
+        //  useUnifiedTopology: true,
       }),
     }),
     ConfigModule.forRoot({ isGlobal: true }),
